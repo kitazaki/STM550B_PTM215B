@@ -6,8 +6,8 @@ float temp, humid, lux, bat; // sensor data
 int button; // button data
 
 #define ManufacturerId 0x03da  // manufacturer ID for STM550B / PTM215B
-#define STM550B 0x6535  // e2 device address
-#define PTM215B 0x6532  // e5 device address
+#define STM550B 0x6535  // e5 device address
+#define PTM215B 0x6532  // e2 device address
 
 BLEScan* pBLEScan;
 int scanTime = 10; //In seconds
